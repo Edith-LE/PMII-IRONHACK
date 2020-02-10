@@ -6,6 +6,7 @@ const userSchema = new Schema(
     email: String,
     name: String,
     googleID: String,
+    image: String
   },
   {
     timestamps: true
